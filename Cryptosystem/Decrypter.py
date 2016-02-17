@@ -1,11 +1,13 @@
 # This is the decrypter which decrypts words encrypted in the Encrypter.py file
-word = raw_input("Let's decrypt a string! Enter string for decryption: ")
+word = raw_input("Let's decrypt a string! Enter encrypted string for decryption: ")
 
 # Cipher holds the corresponding value of the decrypted letter
 cipher = []
 
 # looping through the encrypted string and returning corresponding letters if found
 for letter in word:
+    if letter == " ":
+        cipher.append(" ")
     if letter == "b":
         cipher.append("a")
     if letter == "e":
@@ -61,4 +63,4 @@ for letter in word:
 
 
 # Printing out the decrypted string
-print''.join(cipher)
+print "Your encrypted message has been successfully decrypted. It reads: %s" % (''.join(cipher))
