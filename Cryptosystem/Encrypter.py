@@ -6,7 +6,7 @@ print ""
 word = raw_input("Pick a word or sentence to be encrypted: ")
 cipher = []
 
-# sifting through each letter and appending the encrypted value to the cipher variable
+# sifting through each letter and appending the encrypted value to the cipher variable (slightly basic)
 for letter in word:
     if letter == " ":
         cipher.append(" ")
