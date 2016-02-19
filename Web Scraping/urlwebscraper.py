@@ -21,8 +21,7 @@ links = soup.find_all('a')
 
 # Running through all urls in webpage, and writing each one to txt file
 for i in links:
-    if 'href' in str(i):
-        print >>x, i
+    print >>x, i
 
 print "Web Scraping complete! Output can be found in links.txt"
     
