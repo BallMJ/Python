@@ -1,3 +1,4 @@
+# Random number game which shows how fast Python can get from a random number, to a user generated number. 
 from random import *
 from timeit import default_timer as timer
 
