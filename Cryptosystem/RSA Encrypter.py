@@ -1,6 +1,6 @@
 """--RSA txt file Encrypter and decrypter using pycrypto--
--Code is a bit messy at the moment (quite raw, and far from
- what I am aiming), updates coming
+-Code is a bit messy at the moment (quite raw and far from
+ what I am aiming for), updates are coming
 
 -More additions will be made to this code including:
  Generating files as per user input request
