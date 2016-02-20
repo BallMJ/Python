@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """ Webscraper which takes URL input and scrapes all links
 within the webpage, then writes them to a text file for using/editing"""
 
@@ -26,7 +25,7 @@ for i in links:
 
 print "Web Scraping complete! Output can be found in links.txt"
     
-=======
+
 """ Webscraper which takes URL input and scrapes all links
 within the webpage, then writes them to a text file for using/editing"""
 
@@ -54,4 +53,4 @@ for i in links:
 
 print "Web Scraping complete! Output can be found in links.txt"
     
->>>>>>> origin/master
+
